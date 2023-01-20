@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact</title>
+
+    <link href="main.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="media.css" rel="stylesheet" type="text/css" />
+    <link href="afdruk.css" rel="stylesheet" type="text/css" media="print" />
+  </head>
+
+  <body>
+    <div id="totaal">
+      <header id="hoofding">
+        <ul>
+          <a href="#" title="the Burger plce"
+            ><img
+              src="afbeelding/pexels-rachel-claire-5490999.jpg"
+              alt=""
+              longdesc="beschrijving_hoofding.html"
+          /></a>
+        </ul>
+
+        <header id="logo">
+          <a href="index.html"
+            ><img
+              src="afbeelding/The BurgerPlace.png"
+              alt=""
+              width="100"
+              height="100"
+              class="logo"
+          /></a>
+        </header>
+      </header>
+
+      <nav id="kruimelpad">
+        U bent hier: <a href="index.html"> Home</a> &gt;
+        <a href="Contact.html">Contact</a>
+      </nav>
+
+      <nav id="navigatie">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul>
+          <li>
+            <a
+              href="index.html"
+              accesskey="w"
+              title="The Burger place"
+              tabindex="1"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="Producten.html"
+              accesskey="q"
+              title="Bestelling"
+              tabindex="1"
+              >Producten</a
+            >
+          </li>
+
+          <li>
+            <a href="Blog.html" accesskey="a" title="" tabindex="1">Blog</a>
+          </li>
+          <li>
+            <a href="Over Ons.html" accesskey="l" title="Over Ons" tabindex="1"
+              >Over Ons</a
+            >
+          </li>
+          <li>
+            <a
+              href="Contact.html"
+              accesskey="x"
+              title="Contacteer ons"
+              tabindex="1"
+              class="actief"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <form id="forml" name="forml" method="post">
+        <h1>Contact</h1>
+
+        <p>
+          <label for="naamveld">Uw naam:</label>
+          <input type="text" name="naamveld" id="naamveld" />
+        </p>
+
+        <p>
+          <label for="email">Uw e-mailadres:</label>
+          <input type="email" name="email" id="email" />
+        </p>
+        <p>
+          <label for="password">Uw wachtwoord:</label>
+          <input type="password" name="password" id="password" />
+        </p>
+
+        <p>
+          <label for="select">Select:</label>
+          <select name="select" id="select">
+            <option value="B">België</option>
+            <option value="F">Frankrijk</option>
+            <option value="N">Nederland</option>
+            <option value="D">Duitsland</option>
+          </select>
+        </p>
+        <p>Wat is uw geslacht?</p>
+        <p>
+          <label> <span style="text-align: center">Vrouw</span></label
+          ><input
+            name="Geslacht"
+            type="radio"
+            class="radioknop"
+            id="Geslacht_0"
+            value="v"
+          />
+          <br />
+          <label> <span style="text-align: center">Man</span></label>
+          <input
+            name="Geslacht"
+            type="radio"
+            class="radioknop"
+            id="Geslacht_1"
+            value="m"
+          />
+          <br />
+        </p>
+
+        <p>
+          <label for="textarea">Uw bericht:</label>
+          <textarea
+            name="textarea"
+            cols="30"
+            rows="10"
+            id="textarea"
+          ></textarea>
+        </p>
+        <p>&nbsp;</p>
+        <p>
+          <input
+            name="submit"
+            type="submit"
+            id="submit"
+            formaction="http://www.kreatuur.be/pcvo/scripts/dump_form.php"
+            formmethod="GET"
+            value="Verzenden"
+          />
+        </p>
+        <p>&nbsp;</p>
+        <h1>Locatie:</h1>
+
+        <p>
+          Je vindt ons vlak aan het Sint-Pietersplein en de Overpoort.Kom
+          je met de auto? Dan kan je voor de deur parkeren. Tot snel!<br />
+          <p>Sint-Amandstraat 48, 9000 Gent</p>
+        </p>
+        
+
+        <h1>Openingsuren:</h1>
+
+        <p>
+          &nbsp; &nbsp; &nbsp;MA 17:00 - 21:00<br />
+          <br />&nbsp; &nbsp; &nbsp;Di - DO 11:00 - 14:00 en 17:00 - 21:00<br />
+          <br />&nbsp; &nbsp; &nbsp;VRIJ 11:00 - 14:00 en 17:30 - 21:00<br />
+          <br />&nbsp; &nbsp; &nbsp;ZA 17:00 - 21:00
+        </p>
+        <address>
+          <h1>Bezoek ons op:</h1>
+          <p>
+            <a href="http://127.0.0.1:5500/index.html"
+              >www.The_Burger_Place.be<br
+            /></a>
+          </p>
+          <br />
+
+          <h1>Contacteer Ons:</h1>
+          <p>
+            <a href="mailto:info@The_Burger_Place.be"
+              >info@The_Burger_Place.be<br
+            /></a>
+          </p>
+          <p>
+            <a href="tel:+32483725844"
+              >Bel: +32483725844<br
+            /></a></p>
+          
+        </address>
+      </form>
+
+      <nav id="navigatie_onder">
+        <ul>
+          <li><a href="index.html">&#8250;Home</a></li>
+          <li><a href="Contact.html">&#8250;Contact</a></li>
+          <li><a href="Over Ons.html">&#8250;Over ons</a></li>
+        </ul>
+      </nav>
+
+      <footer id="icon" style="text-align: left">
+        <p>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img src="afbeelding/facebook.png" width="50" height="50" alt=""
+          /></a>
+          <a href="https://www.google.com/" target="_blank"
+            ><img
+              src="afbeelding/google.png"
+              width="50"
+              height="50"
+              alt="" /></a
+          ><a href="https://www.instagram.com/" target="_blank"
+            ><img
+              src="afbeelding/instagram.png"
+              width="50"
+              height="50"
+              alt="" /></a
+          ><a href="https://www.youtube.com/" target="_blank"
+            ><img src="afbeelding/youtube.png" width="50" height="50" alt=""
+          /></a>
+        </p>
+      </footer>
+
+      <footer id="voetstuk">
+        &copy; 2023 The Burger Place -
+        <a href="disclaimer.html">Disclaimer en privacy</a>
+      </footer>
+    </div>
+  </body>
+</html>

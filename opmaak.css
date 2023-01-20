@@ -1,0 +1,335 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: alegreya;
+    font-style: normal;
+    font-weight: 400;
+    background-color: rgba(253,233,220,1.00);
+}
+
+
+#totaal {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap: 0px 0px;
+    grid-template-areas: "hoofding                hoofding        hoofding           "
+			"kruimelpad   kruimelpad   kruimelpad"
+		"navigatie               navigatie        navigatie     "
+	
+		
+		"content                 content          navigatie_recht       "
+		"info                   info               navigatie_recht     "
+		"navigatie_onder            navigatie_onder          icon          "
+		"voetstuk                voetstuk          voetstuk          ";
+    padding-top: 0px;
+	
+}
+
+
+
+
+
+.afbeelding {
+	float: left;
+	margin-top: 10px;
+	margin-right: 20px;
+	width: 300px;
+	height: 200px;
+	clear: left;
+}
+
+#content h1{
+	color: #32415A;
+}
+
+#content p{color: #32415A;}
+
+#totaal #hoofding #logo {
+    position: absolute;
+    top: 15%;
+    z-index: 99;
+    color: white;
+    left: 19%;
+    max-width: 171px;
+    max-height: 158px;
+    min-width: 170px;
+    min-height: 156px;
+}
+
+#totaal #content p {
+	border-bottom: 2px solid hsla(359,61%,84%,1.00);
+	border-spacing: 0px 0px;
+	padding-bottom: 28px;
+}
+
+
+#navigatie_recht {
+    grid-area: navigatie_recht;
+    background-color: #FBCDAD;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+#hoofding {
+    grid-area: hoofding;
+}
+
+#hoofding img {
+    width: 100%;
+    height: 100%;
+}
+#totaal #info img {
+    margin-bottom: 50px;
+    float: left;
+    margin-left: 5px;
+}
+
+#navigatie {
+	margin-top: 15px;
+	grid-area: navigatie;
+	display: block;
+	
+	
+}
+
+article {
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+		
+}
+
+
+
+
+#navigatie ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: hsla(218,61%,13%,1.00);
+	
+}
+
+
+#navigatie ul a {
+	background-color: #32415A;
+	color: hsla(359,61%,84%,1.00);
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+	transition: all 0.3s ease-out;
+	
+}
+
+
+
+#totaal #info h2 {
+    color: hsla(218,29%,27%,1.00);
+    padding-right: 0px;
+    padding-left: 0px;
+    right: 29%;
+}
+#info p {
+    color: hsla(218,29%,27%,1.00);
+    margin-bottom: 52px;
+    text-align: left;
+}
+
+
+
+
+#navigatie ul a:hover{
+	background-color: #576988;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+
+
+
+
+
+#info {
+	grid-area: info;
+	box-sizing: border-box;
+	
+
+}
+.mydiv{
+	padding-left: 20px;
+	width: 95%;
+	align-items: center;
+	display: flex;
+	
+	justify-content: space-between;
+}
+.prijs{
+	float: right;
+}
+
+#content {
+	grid-area: content;
+	padding: 20px;
+}
+
+#icon {
+	grid-area: icon;
+	text-align: center;
+	display: block;
+	padding: 20px;
+	border-bottom: 2px solid hsla(359,61%,84%,1.00);
+	
+	margin-right: 20px;
+}
+
+#navigatie_onder {
+	grid-area: navigatie_onder;
+	display: flex;
+	padding-left: 10px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid hsla(359,61%,84%,1.00);
+	margin-left: 20px;
+}
+#info p .prijs {
+	color: hsla(254,62%,51%,1.00);
+}
+
+
+#voetstuk {
+	grid-area: voetstuk;
+	text-align: center;
+	margin-top: 20px;
+}
+
+	
+#info h2 {
+	padding-top: 5px;
+
+}
+#totaal #icon img {
+	padding-top: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#navigatie_onder ul {
+	padding-top: 20px;
+	padding-right: 10px;
+	
+	padding-bottom: 10px;
+	padding-left: 0px;
+	display: flex;
+	
+	list-style-type: none;
+
+}
+
+#navigatie_onder ul a {
+	padding-right:20px;
+
+	text-decoration: none;
+	color: #32415A
+}
+
+#navigatie_onder ul a:hover {
+	color: #F0BDBE;
+	
+}
+
+
+#totaal #navigatie_recht ul {
+	list-style-type: none;
+	padding-left: 20px;
+	
+}
+#totaal #navigatie_recht ul li {
+	list-style-type: none;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+#totaal #navigatie_recht ul li a {
+	font-size: 2.5ex;
+	color: hsla(218,29%,27%,1.00);
+	text-decoration: none;
+}
+#totaal #navigatie_recht ul a:hover  {
+	font-size: 2.5ex;
+	color: hsla(218,32%,46%,1.00);
+}
+#totaal #hoofding .rslides {
+	list-style-type: none;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+#totaal #kruimelpad a {
+    text-decoration: none;
+    color: hsla(24,91%,65%,1.00);
+}
+
+#kruimelpad {
+	grid-area: kruimelpad;
+	margin-left: 0px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#totaal #navigatie ul li a.actief{
+    background-color: #F79654;
+    color: hsla(218,29%,27%,1.00);
+}#totaal #voetstuk a {
+	color: hsla(218,29%,27%,1.00);
+}
+
+#navigatie input
+{
+  display: none;
+}
+a {
+	color: hsla(359,69%,66%,1.00);
+}

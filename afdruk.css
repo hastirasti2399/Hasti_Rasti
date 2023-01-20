@@ -1,0 +1,251 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: alegreya;
+	font-style: normal;
+	font-weight: 400;
+	background-color: #7a8894;
+}
+
+.afbeelding {
+	float: left;
+	margin-top: 10px;
+	margin-right: 20px;
+	width: 200px;
+	height: 160px;
+	clear: left;
+}
+
+
+
+#totaal #hoofding #logo {
+	position: absolute;
+	top: 1%;
+	z-index: 99;
+	color: white;
+	left: 19%;
+}
+#totaal #content p {
+	border-bottom: 2px solid #efbdbe;
+	border-spacing: 0px 0px;
+	padding-bottom: 28px;
+}
+
+
+#navigatie_recht {	
+	grid-area: navigatie_recht;	
+	background-color: #F0BDBE;
+	color: white;
+	padding: 10px;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+#hoofding {
+	grid-area: hoofding;
+	
+	
+}
+
+#hoofding img {
+	width: 100%;
+	height: auto;
+	
+}
+#totaal #info img {
+	margin-bottom: 50px;
+	clear: both;
+}
+
+#navigatie {
+	margin-top: 15px;
+	grid-area: navigatie;
+	display: block;
+	
+	
+}
+
+article {
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+		
+}
+
+
+
+
+#navigatie ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #0d1c35;
+	
+}
+
+
+#navigatie ul a {
+	background-color: #32415A;
+	color: #efbdbe;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+	transition: all 0.3s ease-out;
+	
+}
+
+
+
+#info h2 {
+	color: #0c1c36;
+}
+#info p {
+	color: #314059;
+	margin-bottom:50px;
+	font-style: normal;	
+}
+
+
+
+
+#navigatie ul a:hover{
+	background-color: #576988;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+
+
+
+
+
+#info {
+	grid-area: info;
+	box-sizing: border-box;
+	
+
+}
+
+#content {
+	grid-area: content;
+	padding: 20px;
+}
+
+#icon {
+	grid-area: icon;
+	text-align: center;
+	display: block;
+	padding: 20px;
+	border-bottom: 2px solid #efbdbe;
+	margin-right: 20px;
+}
+
+#navigatie_onder {
+	grid-area: navigatie_onder;
+	display: flex;
+	padding-left: 20px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #efbdbe;
+	margin-left: 20px;
+}
+
+#voetstuk {
+	grid-area: voetstuk;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#totaal #info h1 {
+	
+	color: #314059;
+	padding-bottom: 10px;
+}
+	
+#totaal #info h2 {
+	
+	padding-bottom: 10px;
+}
+
+#totaal #icon img {
+	padding-top: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#navigatie_onder ul {
+	padding-top: 20px;
+	padding-right: 10px;
+	
+	padding-bottom: 10px;
+	padding-left: 0px;
+	display: flex;
+	
+	list-style-type: none;
+
+}
+
+#navigatie_onder ul a {
+	padding-right:20px;
+
+	text-decoration: none;
+	color: #32415A
+}
+
+#navigatie_onder ul a:hover {
+	color: #F0BDBE;
+	
+}
+
+#navigatie input
+{
+  display: none;
+}
+#totaal #navigatie_recht ul {
+	list-style-type: none;
+	padding-left: 20px;
+	
+}
+#totaal #navigatie_recht ul li {
+	list-style-type: none;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+#totaal #navigatie_recht ul li a {
+	font-size: 2.5ex;
+	color: #314059;
+	text-decoration: none;
+}
+#totaal #navigatie_recht ul a:hover  {
+	font-size: 2.5ex;
+	color: #506b9b;
+}
+#totaal #hoofding .rslides {
+	list-style-type: none;
+}
+
+
+
+#totaal #kruimelpad a {
+	text-decoration: none;
+	color: #e46769;
+}
+
+#kruimelpad {
+	grid-area: kruimelpad;
+	margin-left: 0px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#totaal #navigatie ul li a.actief{
+	background-color: #E46E70;
+	color: #314059;
+}
